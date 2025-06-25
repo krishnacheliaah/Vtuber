@@ -8,9 +8,6 @@ from langchain_google_genai import ChatGoogleGenerativeAI
 from langchain_core.messages import HumanMessage
 from vaderSentiment.vaderSentiment import SentimentIntensityAnalyzer
 
-# --- CONFIGURATION ---
-GOOGLE_API_KEY = "AIzaSyCnIp1gOO0yu2w6WDgVr4WySAH-a-Icsz4"  # Replace with your Google API key
-
 # Initialize sentiment analyzer
 analyzer = SentimentIntensityAnalyzer()
 
